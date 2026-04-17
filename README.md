@@ -13,6 +13,8 @@ Bookmark any moment in a ChatGPT or Claude conversation and jump back instantly.
 
 See [CHANGELOG](https://github.com/k-leumas/etch-extension/releases) for what changed in each release.
 
+[Privacy Policy](https://k-leumas.github.io/etch-extension/privacy-policy/)
+
 ## Known Limitations
 
 - **Iframe tables**: Bookmarks cannot be placed inside iframe-embedded content (for example spreadsheet tables rendered inside a chat). This is a browser security restriction.
