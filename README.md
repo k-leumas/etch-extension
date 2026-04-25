@@ -9,7 +9,7 @@ Bookmark any moment in a ChatGPT or Claude conversation and jump back instantly.
 
 ## Current Version
 
-**1.16.1**
+**1.16.2**
 
 See [CHANGELOG](https://github.com/k-leumas/etch-extension/releases) for what changed in each release.
 
