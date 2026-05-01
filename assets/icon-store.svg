@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <rect width="48" height="48" rx="10" fill="#13131f"/>
+  <!--
+    Wider, shorter bookmark. Two thin horizontal slots near the top.
+    Bookmark: x=10..38 (28px wide), y=12..36, V-notch tip at (24,29)
+    Slot 1: y=15..17  Slot 2: y=20..22
+  -->
+  <path fill-rule="evenodd" fill="#bb9af7" d="
+    M 10,12 L 38,12 L 38,36 L 24,29 L 10,36 Z
+    M 12,15 L 36,15 L 36,18 L 12,18 Z
+    M 12,21 L 36,21 L 36,24 L 12,24 Z
+  "/>
+</svg>
