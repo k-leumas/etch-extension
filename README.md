@@ -4,21 +4,18 @@ Bookmark any moment in a ChatGPT or Claude conversation and jump back instantly.
 
 ## Install
 
-- [Chrome Web Store](https://chromewebstore.google.com/detail/etch/TODO-REPLACE-WITH-REAL-ID)
-- [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/etch-extension/)
+- [Chrome Web Store](https://chromewebstore.google.com/detail/enncblmoicoleaocogkpkabofpdlojho)
+- [Firefox Add-ons](https://addons.mozilla.org/en-US/developers/addon/etch/)
 
 ## Current Version
 
 **1.16.4**
 
-See [CHANGELOG](https://github.com/k-leumas/etch-extension/releases) for what changed in each release.
-
-[Privacy Policy](https://k-leumas.github.io/etch-extension/privacy-policy/)
+[Privacy Policy](./PRIVACY_POLICY.md)
 
 ## Known Limitations
 
-- **Iframe tables**: Bookmarks cannot be placed inside iframe-embedded content (for example spreadsheet tables rendered inside a chat). This is a browser security restriction.
-- **Storage quota**: The extension uses local browser storage (up to 10 MB). Users with very large bookmark collections may approach this limit. JSON export is on the roadmap.
+- **Iframes**: Bookmarks cannot be placed inside iframe-embedded content (for example spreadsheet tables rendered inside a chat). This is a browser security restriction.
 
 ## Reporting a Bug
 
