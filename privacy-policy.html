@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy | Etch</title>
+    <meta name="description" content="Etch privacy policy — how your data is handled by the Etch browser extension." />
+    <meta name="theme-color" content="#120f1a" />
+    <link rel="icon" href="/assets/icon-store.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      .prose {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: var(--pad-section, 80px) var(--pad-x, 40px);
+      }
+      .prose h1 {
+        font-family: 'Instrument Serif', serif;
+        font-size: clamp(2rem, 5vw, 3rem);
+        margin-bottom: 0.25em;
+      }
+      .prose .updated {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 0.8rem;
+        opacity: 0.5;
+        margin-bottom: 2.5rem;
+        display: block;
+      }
+      .prose h2 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin: 2rem 0 0.5rem;
+      }
+      .prose p, .prose li {
+        line-height: 1.7;
+        opacity: 0.85;
+      }
+      .prose ul {
+        padding-left: 1.25rem;
+        margin: 0.5rem 0;
+      }
+      .prose li { margin-bottom: 0.25rem; }
+    </style>
+  </head>
+  <body>
+
+    <header class="nav" id="top">
+      <div class="nav-inner">
+        <a class="nav-brand" href="/" aria-label="Etch home">
+          <img src="/assets/icon-store.svg" alt="" width="28" height="28" />
+          <span>etch</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <article class="prose">
+        <h1>Privacy Policy</h1>
+        <span class="updated">Last updated: April 17, 2026</span>
+
+        <h2>Overview</h2>
+        <p>Etch is a browser extension that lets users bookmark moments in supported AI conversations and jump back to them later.</p>
+        <p>This version of Etch stores data locally in the user's browser. It does not sync bookmark data to Etch-operated servers.</p>
+
+        <h2>Data Etch Handles</h2>
+        <p>Etch may store the following data locally in the browser:</p>
+        <ul>
+          <li>Bookmark text selected from supported AI conversation pages</li>
+          <li>Bookmark identifiers used to relocate saved items</li>
+          <li>Conversation URLs and hostnames needed to reopen or jump within the same conversation</li>
+          <li>Extension settings such as onboarding state and UI preferences</li>
+          <li>Temporary jump state used to restore navigation inside a conversation</li>
+        </ul>
+
+        <h2>How Etch Uses Data</h2>
+        <p>Etch uses this data only to provide its core functionality:</p>
+        <ul>
+          <li>Save bookmarks inside supported AI conversation pages</li>
+          <li>Show saved bookmarks in the extension popup</li>
+          <li>Reopen a bookmarked conversation</li>
+          <li>Jump back to a saved location in the current conversation</li>
+          <li>Remember user preferences and onboarding state</li>
+        </ul>
+
+        <h2>Where Data Is Stored</h2>
+        <p>Etch stores data in the browser's extension storage area on the user's device.</p>
+        <p>Etch does not sell user data.</p>
+        <p>Etch does not use user data for advertising, profiling, or creditworthiness decisions.</p>
+        <p>Etch does not transmit bookmark data to Etch-operated servers in this release.</p>
+
+        <h2>Sharing</h2>
+        <p>Etch does not share bookmark data with third parties in this release.</p>
+        <p>If a user chooses to copy a bookmark link, Etch writes that link to the clipboard at the user's request.</p>
+
+        <h2>Permissions</h2>
+        <p>Etch uses these Chrome extension permissions:</p>
+        <ul>
+          <li><code>storage</code> — to save bookmarks, settings, and temporary navigation state</li>
+          <li><code>clipboardWrite</code> — to copy bookmark links when the user requests it</li>
+          <li><code>tabs</code> — to open the welcome page, return to the previous tab after onboarding, and open bookmarked conversations from the popup</li>
+          <li>Host permissions on supported AI chat domains so Etch can run its content script where bookmarking features are available</li>
+        </ul>
+
+        <h2>Data Retention and Control</h2>
+        <p>Users control the data stored by Etch through the extension UI and browser controls. Removing bookmarks or uninstalling the extension may remove locally stored extension data, subject to browser behavior.</p>
+
+        <h2>Security</h2>
+        <p>Because this release stores data locally, Etch relies on the browser's extension storage and permission model for local data handling. If a future release transmits user data over the internet, Etch will update this policy and use secure transport for those transmissions.</p>
+
+        <h2>Changes</h2>
+        <p>If Etch's data practices change, this policy will be updated before or with the relevant product release.</p>
+
+        <h2>Contact</h2>
+        <p>For support or privacy questions, contact the developer through the support channel listed on the Chrome Web Store page or the project's public <a href="https://github.com/k-leumas/etch-extension/issues" target="_blank" rel="noopener">issue tracker</a>.</p>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <p class="footer-brand">© <span id="year"></span> Etch — keep every good part.</p>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="/">Home</a>
+        <a href="https://github.com/k-leumas/etch-extension" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </footer>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
