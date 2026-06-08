@@ -1,3 +1,9 @@
+---
+layout: default
+title: Privacy Policy
+permalink: /privacy-policy/
+---
+
 # Etch Privacy Policy
 
 Last updated: June 7, 2026
