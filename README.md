@@ -9,7 +9,7 @@ Bookmark any moment in a ChatGPT or Claude conversation and jump back instantly.
 
 ## Current Version
 
-**1.23.0**
+**1.23.1**
 
 [Privacy Policy](./PRIVACY_POLICY.md)
 
