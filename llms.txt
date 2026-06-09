@@ -2,7 +2,7 @@
 
 > A browser extension that adds bookmarks and a saved panel to AI chat interfaces (ChatGPT, Claude, Grok, Gemini, and more), so useful moments stop disappearing into the scrollback.
 
-Etch is a lightweight browser extension for Chrome, Edge, Brave, Arc, and Firefox. It lets you bookmark any paragraph, heading, list, or quote inside an AI conversation and jump back to it instantly. Bookmarks are stored locally in the browser — no account or sync required.
+Etch is a lightweight browser extension for Chrome and Firefox. It lets you bookmark any paragraph, heading, list, or quote inside an AI conversation and jump back to it instantly. Bookmarks are stored locally in the browser — no account or sync required.
 
 ## Features
 
@@ -17,5 +17,5 @@ See the full privacy policy at https://k-leumas.github.io/etch-extension/privacy
 
 ## Download
 
-- [Chrome Web Store](https://chromewebstore.google.com/detail/etch/enncblmoicoleaocogkpkabofpdlojho) — Chrome, Edge, Brave, Arc
+- [Chrome Web Store](https://chromewebstore.google.com/detail/etch/enncblmoicoleaocogkpkabofpdlojho) — Chrome
 - [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/etch/) — Firefox
